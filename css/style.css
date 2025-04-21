@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    padding: 2em;
+}
+
+.tarea h2 {
+    margin-bottom: 0.5em;
+}
+
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comentario {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.comentario img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.contenido {
+    background-color: #00000010;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.respuesta {
+    margin-top: 5px;
+}
+
+.cabecera {
+    display: flex;
+    align-items: center;
+}
+
+.fecha {
+    font-size: 0.8em;
+    color: #666;
+    margin-left: 10px;
+    white-space: nowrap;
+}
